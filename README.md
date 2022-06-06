@@ -1,4 +1,4 @@
-# FuckRedOne  
+# KillRedOne  
 OnePlus For ColorOS Fuck RedOne  
 旨在干掉一加ColorOS的红一  
 
@@ -14,6 +14,6 @@ YukiHookAPI
 开发者:luckyzyx  
 <https://github.com/luckyzyx>  
 GitHub仓库  
-<https://github.com/luckyzyx/FuckRedOne>  
+<https://github.com/luckyzyx/KillRedOne>  
 LSPosed仓库  
-<https://github.com/Xposed-Modules-Repo/com.luckyzyx.fuckredone>  
+<https://github.com/Xposed-Modules-Repo/com.luckyzyx.killredone>  
