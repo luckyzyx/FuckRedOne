@@ -9,3 +9,9 @@ OnePlus For ColorOS Fuck RedOne
 # Xposed API  
 YukiHookAPI  
 <https://github.com/fankes/YukiHookAPI>  
+
+# Github  
+开发者:luckyzyx  
+<https://github.com/luckyzyx>  
+GitHub仓库  
+<https://github.com/luckyzyx/FuckRedOne>  
