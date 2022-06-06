@@ -15,3 +15,5 @@ YukiHookAPI
 <https://github.com/luckyzyx>  
 GitHub仓库  
 <https://github.com/luckyzyx/FuckRedOne>  
+LSPosed仓库  
+<https://github.com/Xposed-Modules-Repo/com.luckyzyx.fuckredone>  
