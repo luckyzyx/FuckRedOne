@@ -35,6 +35,16 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            if ('release' == variant.buildType.name) {
+                outputFileName = "FuckRedOne_v${variant.versionName}.${versionCode}.apk"
+            }
+            if ('debug' == variant.buildType.name) {
+                outputFileName = "FuckRedOne_v${variant.versionName}.${versionCode}.apk"
+            }
+        }
+    }
 }
 
 def YukiVersion = "1.0.92"
