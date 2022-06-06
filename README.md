@@ -1,5 +1,5 @@
 # KillRedOne  
-OnePlus For ColorOS Fuck RedOne  
+OnePlus For ColorOS Kill RedOne  
 旨在干掉一加ColorOS的红一  
 
 # 作用域  
