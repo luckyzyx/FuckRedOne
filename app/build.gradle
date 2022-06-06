@@ -13,7 +13,7 @@ android {
     def currentVersionCode = getVersionCode()
 
     defaultConfig {
-        applicationId "com.luckyzyx.fuckredone"
+        applicationId "com.luckyzyx.killredone"
         minSdk 30
         targetSdk 32
         versionCode currentVersionCode
@@ -38,10 +38,10 @@ android {
     applicationVariants.all { variant ->
         variant.outputs.all {
             if ('release' == variant.buildType.name) {
-                outputFileName = "FuckRedOne_v${variant.versionName}.${versionCode}.apk"
+                outputFileName = "KillRedOne_v${variant.versionName}.${versionCode}.apk"
             }
             if ('debug' == variant.buildType.name) {
-                outputFileName = "FuckRedOne_v${variant.versionName}.${versionCode}.apk"
+                outputFileName = "KillRedOne_v${variant.versionName}.${versionCode}.apk"
             }
         }
     }

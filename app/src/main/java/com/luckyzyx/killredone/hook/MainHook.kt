@@ -1,4 +1,4 @@
-package com.luckyzyx.fuckredone.hook
+package com.luckyzyx.killredone.hook
 
 import com.highcapable.yukihookapi.annotation.xposed.InjectYukiHookWithXposed
 import com.highcapable.yukihookapi.hook.factory.configs
