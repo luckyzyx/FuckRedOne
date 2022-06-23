@@ -7,6 +7,12 @@ plugins {
 android {
     signingConfigs {
         release {
+            v1SigningEnabled true
+            v2SigningEnabled true
+            storeFile file('D:\\Android\\luckyzyx.jks')
+            keyAlias 'luckyzyx'
+            storePassword 'luckyzyx'
+            keyPassword 'luckyzyx'
         }
     }
     compileSdk 32
@@ -17,7 +23,7 @@ android {
         minSdk 30
         targetSdk 32
         versionCode currentVersionCode
-        versionName "1.0"
+        versionName "1.0.1"
     }
 
     buildTypes {
@@ -26,6 +32,7 @@ android {
             shrinkResources true     //移除无用的resource文件
             zipAlignEnabled true     //对APK包执行ZIP对齐优化，减小zip体积，增加运行效率
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
