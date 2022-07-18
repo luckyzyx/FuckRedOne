@@ -13,7 +13,7 @@ import com.highcapable.yukihookapi.hook.xposed.proxy.IYukiHookXposedInit
 class MainHook : IYukiHookXposedInit {
     override fun onInit() {
         configs {
-            debugTag = "FuckRedOne"
+            debugTag = "KillRedOne"
             isDebug = false
         }
     }
@@ -70,6 +70,7 @@ class MainHook : IYukiHookXposedInit {
                     equalsOf(other = "Sb",isIgnoreCase = false)//9RT->C12
                     equalsOf(other = "Sc",isIgnoreCase = false)//9RT->C12.1 C02
                     equalsOf(other = "TR",isIgnoreCase = false)//9RT->C12.1 C03
+                    equalsOf(other = "TT",isIgnoreCase = false)//9RT->C12.1 C04
                 }
                 type(CharSequenceType)
             }.get().set("")
